@@ -47,6 +47,13 @@ function load(page) {
             ClearPageBox();
             setActive(rpids[page]);
             break;
+        case 8:
+            url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/zoll.json";
+            rpSection = true;
+            ClearSubBox();
+            ClearPageBox();
+            setActive(rpids[page]);
+            break;
         case 9:
             url = "https://raw.githubusercontent.com/Uschipanzer/UschiPanzer.github.io/master/Data/feuerwehr.json";
             rpSection = true;
